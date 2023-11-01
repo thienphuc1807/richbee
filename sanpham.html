@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sản phẩm</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <ul class="nav navproduct">
+                <li class="logoheader">
+                    <img src="assets/img/richbee-1660816267.png">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="sanpham.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tintuc.html">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-user"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <a class="dropdown-item" href="#">Đăng nhập</a>
+                        <a class="dropdown-item" href="#">Đăng ký</a>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-search"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <form action="">
+                            <input type="text" name="" placeholder="Nhập từ khoá ..." id="">
+                            <button class="btnsearch">Tìm</button>
+                        </form>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link cart" href="#"><i class="fa-solid fa-cart-shopping"><span
+                                class="badge">0</span></i></a>
+                </li>
+            </ul>
+            <img class="mt-3 mobilebanner" src="assets/img/richbee-1660816267.png">
+            <label for="navmobileinput" class="navbarbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" hidden class="nav-input" id="navmobileinput">
+
+            <label for="navmobileinput" class="navoverlay"></label>
+
+            <nav class="navmobile pt-5">
+                <label for="navmobileinput" class="navmobileclose pr-3">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="gioithieu.html">Hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="tintuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Tìm kiếm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container mb-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+            </ol>
+        </nav>
+        <div class="fliterbutton">
+            <label for="navmobilefilter">Lọc<i class="fa-solid fa-filter"></i></label>
+        </div>
+        <input type="checkbox" name="" hidden class="nav-input" id="navmobilefilter">
+        <label for="navmobilefilter" class="navoverlay"></label>
+        <nav class="navmobile">
+            <label for="navmobilefilter" class="navmobileclose pr-3">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <div class="mobilefilter mt-4">
+                <h6 class="mr-auto my-auto px-3">Lọc theo giá</h6>
+                <div>
+                    <input type="checkbox" id="price" />
+                    <label for="price">0đ - 1.000.000đ </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price1" />
+                    <label for="price1">1.000.000đ - 2.000.000đ </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price2" />
+                    <label for="price2">2.000.000đ - 3.000.000đ </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price3" />
+                    <label for="price3">3.000.000đ - 4.000.000đ </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price4" />
+                    <label for="price4">5.000.000đ - 6.000.000đ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price5" />
+                    <label for="price5">7.000.000đ - 8.000.000đ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price6" />
+                    <label for="price6">9.000.000đ - 10.000.000đ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="price7" />
+                    <label for="price7">> 10.000.000đ</label>
+                </div>
+                <h6 class="mr-auto my-auto px-3">Xuất xứ</h6>
+                <div>
+                    <input type="checkbox" id="country" />
+                    <label for="country">Việt Nam</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country1" />
+                    <label for="country1">Mỹ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country2" />
+                    <label for="country2">Anh</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country3" />
+                    <label for="country3">Đức</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country4" />
+                    <label for="country4">Tây Ban Nha</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country5" />
+                    <label for="country5">Ý</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country6" />
+                    <label for="country6">Hà Lan</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country6" />
+                    <label for="country6">Phần Lan</label>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 content-left">
+                <div class="box-filter">
+                    <div class="title-content-left d-flex">
+                        <h6 class="mr-auto my-auto py-3 px-3">Danh mục sản phẩm</h6>
+                    </div>
+                    <div class="filter py-3">
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Nước hoa</a>
+                                <ul class="ul-child active">
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Nước hoa 1</a></li>
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Nước hoa 1</a></li>
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Nước hoa 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Trang điểm</a>
+                                <ul class="ul-child">
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Trang điểm 1 </a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Trang điểm 2 </a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Trang điểm 3 </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Chăm sóc da</a>
+                                <ul class="ul-child">
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Chăm sóc da</a>
+                                <ul class="ul-child">
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Chăm sóc da</a>
+                                <ul class="ul-child">
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""><i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="list-filter">
+                                <a href=""><i class="fa fa-angle-right pr-2"></i>Chăm sóc da</a>
+                                <ul class="ul-child">
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                    <li><a href=""> <i class="fa fa-caret-right"></i> Chăm sóc da 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-filter">
+                    <div class="title-content-left d-flex">
+                        <h6 class="mr-auto my-auto py-3 px-3">Lọc theo giá</h6>
+                    </div>
+
+                    <div class="filter">
+                        <div>
+                            <input type="checkbox" />
+                            <span>0đ - 1.000.000đ </span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>1.000.000đ - 2.000.000đ </span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>2.000.000đ - 3.000.000đ </span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>3.000.000đ - 4.000.000đ </span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>5.000.000đ - 6.000.000đ</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>7.000.000đ - 8.000.000đ</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>9.000.000đ - 10.000.000đ</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>> 10.000.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-filter">
+                    <div class="title-content-left d-flex">
+                        <h6 class="mr-auto my-auto py-3 px-3">Xuất xứ</h6>
+                    </div>
+                    <div class="filter">
+                        <div>
+                            <input type="checkbox" />
+                            <span>Việt Nam</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Mỹ</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Anh</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Đức</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Tây Ban Nha</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Ý</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Hà Lan</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span>Phần Lan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="main-product">
+                    <div class="sort d-flex">
+                        <h6 class="my-auto py-3 px-3">SẮP XẾP THEO : </h6>
+                        <button class="btn btnsort">Mới nhất</button>
+                        <button class="btn btnsort">Bán chạy</button>
+                        <select name="" id="" class="btnsort">
+                            <option value="">Thự tự mặc định</option>
+                            <option value="">Giá tăng dần</option>
+                            <option value="">Giá giảm dần</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <div class="row product">
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7.png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name" class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED
+                                        GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (1).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (2).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (3).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7.png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (1).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (2).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (3).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7.png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (1).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (2).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (3).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7.png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (1).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (2).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                            <div class="product-item col-lg-3 col-md-4 col-xs-6">
+                                <div class="img-prd">
+                                    <img src="assets/img/Rectangle 7 (3).png" class="productimg" alt="">
+                                    <div class="more">
+                                        <a href="chitietsp.html" class="text">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <h6 class="product-name"><a href="chitietsp.html">LANCÔME ADVANCED GÉNIFIQUE FACE
+                                        SERUM</a></h6>
+                                <h5>100.000 vnđ</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <div class="mx-auto my-3">
+                        <a href="#">«</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">»</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-3 bottom-product-header">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-auto">
+                    <h4>Có thể bạn sẽ thích</h4>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                    <button class="minislidebtn btnPrev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="minislidebtn btnNext"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-product text-center bg-white mt-2">
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container py-5">
+            <img class="pb-5" src="assets/img/richbee.png" alt="">
+            <hr color="white">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <h3 style="font-weight: lighter;">Nhận ưu đãi hấp dẫn lên đến 25%</h3>
+                    <form action="">
+                        <input type="text" class="inputfooter" placeholder="Nhập email của bạn" name="" id="">
+                        <button class="btninput"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                    <div class="icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Thông tin liên hệ</h3>
+                    <p>(028) 00 000 000</p>
+                    <p>support@vinateks.com</p>
+                    <p>28E Tăng Bạt Hổ, Phường 11, Quận Bình Thạnh, Thành phố Hồ Chí Minh</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Danh mục</h3>
+                    <div class="menufooter">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="sanpham.html">Sản phẩm</a>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                        <a href="tintuc.html">Tin tức</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script>
+        $(".bottom-product").each(function () {
+            var slider = $(this);
+            slider.slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                prevArrow: slider.parent().find('.btnPrev'),
+                nextArrow: slider.parent().find('.btnNext'),
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+
+            });
+        });
+    </script>
+</body>
+
+</html>

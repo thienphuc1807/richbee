@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Chi tiết Sản phẩm</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <ul class="nav navproduct">
+                <li class="logoheader">
+                    <img src="assets/img/richbee-1660816267.png">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active" href="sanpham.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tintuc.html">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-user"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <a class="dropdown-item" href="#">Đăng nhập</a>
+                        <a class="dropdown-item" href="#">Đăng ký</a>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-search"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <form action="">
+                            <input type="text" name="" placeholder="Nhập từ khoá ..." id="">
+                            <button class="btnsearch">Tìm</button>
+                        </form>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link cart" href="#"><i class="fa-solid fa-cart-shopping"><span
+                                class="badge">0</span></i></a>
+                </li>
+            </ul>
+            <img class="mt-3 mobilebanner" src="assets/img/richbee-1660816267.png">
+            <label for="navmobileinput" class="navbarbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" hidden class="nav-input" id="navmobileinput">
+
+            <label for="navmobileinput" class="navoverlay"></label>
+
+            <nav class="navmobile pt-5">
+                <label for="navmobileinput" class="navmobileclose pr-3">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="gioithieu.html">Hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="tintuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Tìm kiếm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container my-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="sanpham.html">Sản phẩm</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Nước hoa</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row bg-white py-4">
+                <div class="col-lg-5 col-md-5">
+                    <div class="slideimg detailproduct">
+                        <button class="btn-prev"><i class="fas fa-angle-left"></i></button>
+                        <div class="slider-for">
+                            <img src="assets/img/Rectangle 7.png" alt="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="">
+                            <img src="assets/img/Rectangle 7.png" alt="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="">
+                        </div>
+                        <button class="btn-next"><i class="fas fa-angle-right"></i></button>
+                    </div>
+                    <div class="slider-nav detailproduct">
+                        <img src="assets/img/Rectangle 7.png" alt="">
+                        <img src="assets/img/Rectangle 7 (1).png" alt="">
+                        <img src="assets/img/Rectangle 7 (2).png" alt="">
+                        <img src="assets/img/Rectangle 7 (3).png" alt="">
+                        <img src="assets/img/Rectangle 7.png" alt="">
+                        <img src="assets/img/Rectangle 7 (1).png" alt="">
+                        <img src="assets/img/Rectangle 7 (2).png" alt="">
+                        <img src="assets/img/Rectangle 7 (3).png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <h2>LANCÔME ADVANCED GÉNIFIQUE FACE SERUM</h2>
+                    <div class="info-product">
+                        <span class="detailrating">
+                            4.8/5 <i class="fa fa-star"></i>
+                            <a href="">(Xem 90 lượt đánh giá)</a>
+                        </span>
+                        <span>Mã hàng : <strong>1872021212</strong></span>
+                        <span>Phân loại : <strong>Nước hoa</strong></span>
+                        <span>Tình trạng : <strong>Còn hàng</strong></span>
+                        <span class="price-detail">
+                            100.000đ
+                        </span>
+                        <div class="buttons_added">
+                            <label>Số lượng: </label>
+                            <input class="minus btn-form" type="button" value="-">
+                            <input aria-label="quantity" class="input-qty" max="100" min="1" name="" type="number"
+                                value="" placeholder="1">
+                            <input class="plus btn-form" type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="detailbtn mt-3">
+                        <div class="btn btn-buynow">Mua ngay</div>
+                        <div class="btn btn-addcart"><i class="fa-solid fa-cart-plus pr-2"></i>Thêm</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenttab mt-3">
+            <div class="tab">
+                <button class="tabbutton tablink bg-white" onclick="openContent(event,'1')">Mô tả sản phẩm</button>
+                <button class="tabbutton tablink" onclick="openContent(event,'2')">Thông tin chi tiết</button>
+                <button class="tabbutton tablink" onclick="openContent(event,'3')">Đánh giá</button>
+            </div>
+            <div id="1" class="detailcontent">
+                <h2>Lịch sử nước hoa</h2>
+                <p>By Kilian là thương hiệu nước hoa sang trọng ở Paris Pháp, được thành lập bởi cháu trai của nhà sáng
+                    lập Tập đoàn hàng cao cấp đa quốc gia LVMH - Kilian Hennessy. Kế thừa truyền thống lâu đời của dòng
+                    họ sản xuất những sản phâm thời thượng và đẳng cấp., Năm 2007, Kilian ra mắt thương hiệu nước hoa
+                    đầu tiên của riêng mình và khẳng định giá trị của mình cho đến ngày hôm nay.
+
+                    Được ra mắt vào năm 2012, Good Girl Gone Bad By Kilian là dòng nước hoa cao cấp được thiết kế dành
+                    riêng cho phái đẹp, cho đến tận bây giờ vẫn là một trong số ít những mùi hương luôn luôn nằm trong
+                    danh sách Best-Seller của dòng nước hoa cao cấp, xa xỉ.</p>
+                <div class="contentimg">
+                    <img src="assets/img/Rectangle 32.png" alt="" srcset="">
+                </div>
+                <p>By Kilian là thương hiệu nước hoa sang trọng ở Paris Pháp, được thành lập bởi cháu trai của nhà sáng
+                    lập Tập đoàn hàng cao cấp đa quốc gia LVMH - Kilian Hennessy. Kế thừa truyền thống lâu đời của dòng
+                    họ sản xuất những sản phâm thời thượng và đẳng cấp., Năm 2007, Kilian ra mắt thương hiệu nước hoa
+                    đầu tiên của riêng mình và khẳng định giá trị của mình cho đến ngày hôm nay.
+
+                    Được ra mắt vào năm 2012, Good Girl Gone Bad By Kilian là dòng nước hoa cao cấp được thiết kế dành
+                    riêng cho phái đẹp, cho đến tận bây giờ vẫn là một trong số ít những mùi hương luôn luôn nằm trong
+                    danh sách Best-Seller của dòng nước hoa cao cấp, xa xỉ.</p>
+                <div class="contentimg">
+                    <img src="assets/img/Rectangle 33.png" alt="" srcset="">
+                </div>
+            </div>
+
+            <div id="2" class="detailcontent" style="display:none">
+                <div class="productatt">
+                    <div class="attgroup">
+                        <h4>Thông tin chung</h4>
+                        <ul>
+                            <li>
+                                <label>Năm phát hành</label>
+                                <span>2012</span>
+                            </li>
+                            <li>
+                                <label>Giới tính</label>
+                                <span>Nữ</span>
+                            </li>
+                            <li>
+                                <label>Phong cách</label>
+                                <span>Sang trọng, quyến rũ, ngọt ngào</span>
+                            </li>
+                            <li>
+                                <label>Xuất xứ</label>
+                                <span>Pháp</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="attgroup">
+                        <h4>Chi tiết</h4>
+                        <ul>
+                            <li>
+                                <label>Nồng độ</label>
+                                <span>Eau de Parfum</span>
+                            </li>
+                            <li>
+                                <label>Lưu hương</label>
+                                <span>7-12h</span>
+                            </li>
+                            <li>
+                                <label>Nhóm hương</label>
+                                <span>Floral Fruity - hương hoa cỏ trái cây</span>
+                            </li>
+                            <li>
+                                <label>Dung tích</label>
+                                <span>50ml</span>
+                            </li>
+                            <li>
+                                <label>Độ tỏa hương</label>
+                                <span>1 cánh tay</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="3" class="detailcontent" style="display:none">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row totalrate">
+                            <div class="col-6">
+                                <div class="totalbox">
+                                    <h5>Tổng thể</h5>
+                                    <h1>4.8</h1>
+                                    <h6>(40 Đánh giá)</h6>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="totalstar">
+                                    <h3>Đánh giá</h3>
+                                    <ul class="list">
+                                        <li><a href="">5 sao<i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>(10)</a></li>
+                                        <li><a href="">4 sao<i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>(10)</a></li>
+                                        <li><a href="">3 sao<i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>(10)</a></li>
+                                        <li><a href="">2 sao<i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>(10)</a></li>
+                                        <li><a href="">1 sao<i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>(10)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-review mt-3">
+                            <div class="review-item">
+                                <div class="review d-flex">
+                                    <div class="review-img ">
+                                        <img src="assets/img/Rectangle 32.png" alt="">
+                                    </div>
+                                    <div class="review-header">
+                                        <span>Thiên Phúc</span>
+                                        <div class="review-rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i></a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-cmt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut
+                                        aliquip ex ea
+                                        commodo</p>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="review d-flex">
+                                    <div class="review-img ">
+                                        <img src="assets/img/Rectangle 32.png" alt="">
+                                    </div>
+                                    <div class="review-header">
+                                        <span>Thiên Phúc</span>
+                                        <div class="review-rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i></a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-cmt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut
+                                        aliquip ex ea
+                                        commodo</p>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="review d-flex">
+                                    <div class="review-img ">
+                                        <img src="assets/img/Rectangle 32.png" alt="">
+                                    </div>
+                                    <div class="review-header">
+                                        <span>Thiên Phúc</span>
+                                        <div class="review-rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i></a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-cmt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut
+                                        aliquip ex ea
+                                        commodo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 form-rating">
+                        <h3>Bình luận</h3>
+                        <p>Đánh giá của bạn :
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </p>
+                        <form class="row contact_form" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Tên">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="number" name="number"
+                                        placeholder="Số điện thoại">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" rows="1"
+                                        placeholder="Review"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-right">
+                                <button type="submit" value="submit" class="primary-btn">Gửi đi</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-3 bottom-product-header">
+                <div class="col-lg-6 col-md-6 col-sm-7 col-7  my-auto">
+                    <h4>Các sản phẩm liên quan</h4>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-5 col-5  text-right">
+                    <button class="minislidebtn btnPrev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="minislidebtn btnNext"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-product text-center bg-white mt-2">
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-3 bottom-product-header">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-auto">
+                    <h4>Có thể bạn sẽ thích</h4>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                    <button class="minislidebtn btnPrev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="minislidebtn btnNext"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-product text-center bg-white mt-2">
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+            <div class="botitem">
+                <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="" class="productimg">
+                <div class="more">
+                    <a href="" class="text">Xem thêm</a>
+                </div>
+                <a>Nước hoa</a>
+                <h6>100.000vnđ</h6>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container py-5">
+            <img class="pb-5" src="assets/img/richbee.png" alt="">
+            <hr color="white">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <h3 style="font-weight: lighter;">Nhận ưu đãi hấp dẫn lên đến 25%</h3>
+                    <form action="">
+                        <input type="text" class="inputfooter" placeholder="Nhập email của bạn" name="" id="">
+                        <button class="btninput"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                    <div class="icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Thông tin liên hệ</h3>
+                    <p>(028) 00 000 000</p>
+                    <p>support@vinateks.com</p>
+                    <p>28E Tăng Bạt Hổ, Phường 11, Quận Bình Thạnh, Thành phố Hồ Chí Minh</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Danh mục</h3>
+                    <div class="menufooter">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="sanpham.html">Sản phẩm</a>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                        <a href="tintuc.html">Tin tức</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: $('.btn-prev'),
+            nextArrow: $('.btn-next'),
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            focusOnSelect: true,
+            autoplay: true,
+            arrows: false,
+            autoplaySpeed: 2000,
+        });
+        $('input.input-qty').each(function () {
+            var $this = $(this),
+                qty = $this.parent().find('.btn-form'),
+                min = Number($this.attr('min')),
+                max = Number($this.attr('max'))
+            if (min == 0) {
+                var d = 0
+            } else d = min
+            $(qty).on('click', function () {
+                if ($(this).hasClass('minus')) {
+                    if (d > min) d += -1
+                } else if ($(this).hasClass('plus')) {
+                    var x = Number($this.val()) + 1
+                    if (x <= max) d += 1
+                }
+                $this.attr('value', d).val(d)
+            })
+        })
+        function openContent(evt, num) {
+            var i;
+            var x = document.getElementsByClassName("detailcontent");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("bg-white", "");
+            }
+            evt.currentTarget.className += " bg-white";
+            document.getElementById(num).style.display = "block";
+        }
+        $(".bottom-product").each(function () {
+            var slider = $(this);
+            slider.slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                prevArrow: slider.parent().find('.btnPrev'),
+                nextArrow: slider.parent().find('.btnNext'),
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+
+            });
+        });
+    </script>
+</body>
+
+</html>

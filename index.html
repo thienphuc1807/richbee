@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Richbee</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                </li>
+                <li class="logoheader">
+                    <img src="assets/img/richbee-1660816267.png">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tintuc.html">Tin tức</a>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-user"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <a class="dropdown-item" href="#">Đăng nhập</a>
+                        <a class="dropdown-item" href="#">Đăng ký</a>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa-solid fa-search"></i></a>
+                    <div class="dropdown-menu searchmenu">
+                        <form action="">
+                            <input type="text" name="" placeholder="Nhập từ khoá ..." id="">
+                            <button class="btnsearch">Tìm</button>
+                        </form>
+                    </div>
+                </li>
+                <li class="nav-logo">
+                    <a class="nav-link cart" href="#"><i class="fa-solid fa-cart-shopping"><span
+                                class="badge">0</span></i></a>
+                </li>
+            </ul>
+
+            <img class="mt-3 mobilebanner" src="assets/img/richbee-1660816267.png">
+
+            <label for="navmobileinput" class="navbarbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" hidden class="nav-input" id="navmobileinput">
+
+            <label for="navmobileinput" class="navoverlay"></label>
+
+            <nav class="navmobile pt-5">
+                <label for="navmobileinput" class="navmobileclose pr-3">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="gioithieu.html">Hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="tintuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Tìm kiếm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 title my-4">
+                    Menu sản phẩm
+                    <hr class="line" width="20%" color="#00375d" align="left" />
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 title">
+                            <h2><b>Sản Phẩm Mới</b></h2>
+                        </div>
+                        <div class="col-md-6 button">
+                            <button class="btn slidebtn prev-arrow"><i class="fa-solid fa-arrow-left-long"></i></button>
+                            <button class="btn slidebtn next-arrow"><i
+                                    class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product my-5">
+                <div class="item container">
+                    <div class="prdheader">
+                        <div class="sale">20% Off For 3!</div>
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/img/Rectangle 7.png" alt="">
+                    </div>
+                    <div class="row">
+                        <button class="minislidebtn btnPrev col-md-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slideminiproduct col-md-8">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                        </div>
+                        <button class="minislidebtn btnNext col-md-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="prdname">
+                        LANCÔME ADVANCED GÉNIFIQUE FACE SERUM
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="numrating">(99)</b>
+                    </div>
+                    <div class="price">
+                        459.000đ
+                    </div>
+                    <div class="addcart">
+                        <button class="btnaddcart">THÊM VÀO GIỎ</button>
+                    </div>
+                </div>
+                <div class="item container">
+                    <div class="prdheader">
+                        <div class="sale">20% Off For 3!</div>
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/img/Rectangle 7 (1).png" alt="">
+                    </div>
+                    <div class="row">
+                        <button class="minislidebtn btnPrev col-md-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slideminiproduct col-md-8">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (1).png" alt="" srcset="">
+                        </div>
+                        <button class="minislidebtn btnNext col-md-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="prdname">
+                        LANCÔME ADVANCED GÉNIFIQUE FACE SERUM
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="numrating">(99)</b>
+                    </div>
+                    <div class="price">
+                        459.000đ
+                    </div>
+                    <div class="addcart">
+                        <button class="btnaddcart">THÊM VÀO GIỎ</button>
+                    </div>
+                </div>
+                <div class="item container">
+                    <div class="prdheader">
+                        <div class="sale">20% Off For 3!</div>
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/img/Rectangle 7 (2).png" alt="">
+                    </div>
+                    <div class="row">
+                        <button class="minislidebtn btnPrev col-md-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slideminiproduct col-md-8">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (2).png" alt="" srcset="">
+                        </div>
+                        <button class="minislidebtn btnNext col-md-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="prdname">
+                        LANCÔME ADVANCED GÉNIFIQUE FACE SERUM
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="numrating">(99)</b>
+                    </div>
+                    <div class="price">
+                        459.000đ
+                    </div>
+                    <div class="addcart">
+                        <button class="btnaddcart">THÊM VÀO GIỎ</button>
+                    </div>
+                </div>
+                <div class="item container">
+                    <div class="prdheader">
+                        <div class="sale">20% Off For 3!</div>
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/img/Rectangle 7 (3).png" alt="">
+                    </div>
+                    <div class="row">
+                        <button class="minislidebtn btnPrev col-md-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slideminiproduct col-md-8">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7 (3).png" alt="" srcset="">
+                        </div>
+                        <button class="minislidebtn btnNext col-md-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="prdname">
+                        LANCÔME ADVANCED GÉNIFIQUE FACE SERUM
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="numrating">(99)</b>
+                    </div>
+                    <div class="price">
+                        459.000đ
+                    </div>
+                    <div class="addcart">
+                        <button class="btnaddcart">THÊM VÀO GIỎ</button>
+                    </div>
+                </div>
+                <div class="item container">
+                    <div class="prdheader">
+                        <div class="sale">20% Off For 3!</div>
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/img/Rectangle 7.png" alt="">
+                    </div>
+                    <div class="row">
+                        <button class="minislidebtn btnPrev col-md-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slideminiproduct col-md-8">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                            <img src="assets/img/Rectangle 7.png" alt="" srcset="">
+                        </div>
+                        <button class="minislidebtn btnNext col-md-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="prdname">
+                        LANCÔME ADVANCED GÉNIFIQUE FACE SERUM
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="numrating">(99)</b>
+                    </div>
+                    <div class="price">
+                        459.000đ
+                    </div>
+                    <div class="addcart">
+                        <button class="btnaddcart">THÊM VÀO GIỎ</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="content-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 title">
+                    Menu sản phẩm
+                    <hr class="line" width="20%" color="white" align="left" />
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mt-4">
+                        Bộ Đôi<br>
+                        Hoàn Mỹ
+                    </h2>
+                    <div class="py-4">
+                        <p>There are many variations of passages of Lorem Ipsum available ,
+                            but the majority have suffered alteration in some form , by
+                            injected humour , or randomised words which don't look even
+                            slightly believable .</p>
+                        <p>
+                            If you are going to use a passage of Lorem Ipsum , you need to
+                            be sure there isn't anything embarrassing hidden in the middle
+                            of text . All the Lorem Ipsum generators on the Internet tend to
+                            repeat predefined chunks as necessary , making this the first
+                            true generator on the Internet</p>
+                    </div>
+                    <div class="buynow">
+                        <button class="buynowbtn">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/img/Rectangle 420.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-4">
+                    <div class="title">Phản hồi
+                        <hr class="line" width="10%" color="#00375d" align="right" />
+                    </div>
+                </div>
+                <div class="col-md-12 title">
+                    <h2><b style="color:#fa7e14;">20K+</b>
+                        Đánh Giá Tốt Từ Khách Hàng</h2>
+                </div>
+            </div>
+            <div class="respon my-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="assets/img/Rectangle 32.png" alt="" srcset="">
+                        </div>
+                        <div class="responrating col-md-7">
+                            <div class="rating2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="cmt my-4">
+                                "Mỹ phẩm bên này tuy giá hơi đát nhưng ưng ý nhất mà tôi từng dùng"
+                            </div>
+                            <p class="cmt2">
+                                It is a long established fact that a reader will be
+                                distracted by the readable content of a page when
+                                looking at its layout . The point of using Lorem Ipsum is
+                                that it has a more - or - less normal distribution of letters ,
+                                as opposed to using ' Content here , content here ' ,
+                                making it look like readable English...<a style="color: #fa7e14">Đọc thêm</a>
+                            </p>
+                            <hr color="#00375d">
+                            <div class="per">
+                                <div class="responname">
+                                    <div class="cmt">Mai Anh</div>
+                                    <div class="cmt2">Khách hàng thân thiết</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="assets/img/Rectangle 32.png" alt="" srcset="">
+                        </div>
+                        <div class="responrating col-md-7">
+                            <div class="rating2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="cmt my-4">
+                                "Mỹ phẩm bên này tuy giá hơi đát nhưng ưng ý nhất mà tôi từng dùng"
+                            </div>
+                            <p class="cmt2">
+                                It is a long established fact that a reader will be
+                                distracted by the readable content of a page when
+                                looking at its layout . The point of using Lorem Ipsum is
+                                that it has a more - or - less normal distribution of letters ,
+                                as opposed to using ' Content here , content here ' ,
+                                making it look like readable English...<a style="color: #fa7e14">Đọc thêm</a>
+                            </p>
+                            <hr color="#00375d">
+                            <div class="per">
+                                <div class="responname">
+                                    <div class="cmt">Mai Anh</div>
+                                    <div class="cmt2">Khách hàng thân thiết</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn slidebtn btnPrev"><i class="fa-solid fa-arrow-left-long"></i></button>
+                <button class="btn slidebtn btnNext"><i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-md-12 title my-4">
+                Blog
+                <hr class="line" width="20%" color="#00375d" align="left" />
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 title">
+                        <h2><b>Tin tức nổi bật</b></h2>
+                    </div>
+                    <div class="col-md-6 button">
+                        <button class="btn slidebtn btnPrev"><i class="fa-solid fa-arrow-left-long"></i></button>
+                        <button class="btn slidebtn btnNext"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog mt-4">
+            <div class="detailblog">
+                <img src="assets/img/Rectangle 33.png" alt="">
+                <h5>SẢN PHẨM MỚI</h5>
+                <p>It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
+                    looking at its layout...<a style="color: #fa7e14" href="#">Đọc thêm</a></p>
+            </div>
+            <div class="detailblog">
+                <img src="assets/img/Rectangle 34.png" alt="">
+                <h5>SẢN PHẨM MỚI</h5>
+                <p>It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
+                    looking at its layout...<a style="color: #fa7e14" href="#">Đọc thêm</a></p>
+            </div>
+            <div class="detailblog">
+                <img src="assets/img/Rectangle 35.png" alt="">
+                <h5>SẢN PHẨM MỚI</h5>
+                <p>It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
+                    looking at its layout...<a style="color: #fa7e14" href="#">Đọc thêm</a></p>
+            </div>
+            <div class="detailblog">
+                <img src="assets/img/Rectangle 35.png" alt="">
+                <h5>SẢN PHẨM MỚI</h5>
+                <p>It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
+                    looking at its layout...<a style="color: #fa7e14" href="#">Đọc thêm</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container py-5">
+            <img class="pb-5" src="assets/img/richbee.png" alt="">
+            <hr color="white">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <h3 style="font-weight: lighter;">Nhận ưu đãi hấp dẫn lên đến 25%</h3>
+                    <form class="footerform" action="">
+                        <input type="text" class="inputfooter" placeholder="Nhập email của bạn" name="" id="">
+                        <button class="btninput"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                    <div class="icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Thông tin liên hệ</h3>
+                    <p>(028) 00 000 000</p>
+                    <p>support@vinateks.com</p>
+                    <p>28E Tăng Bạt Hổ, Phường 11, Quận Bình Thạnh, Thành phố Hồ Chí Minh</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="pb-3">Danh mục</h3>
+                    <div class="menufooter">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="sanpham.html">Sản phẩm</a>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                        <a href="tintuc.html">Tin tức</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(window).on("load resize orientationchange", function () {
+            $(".slideminiproduct").each(function () {
+                var slider = $(this);
+                slider.slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    arrows: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    prevArrow: slider.parent().find('.btnPrev'),
+                    nextArrow: slider.parent().find('.btnNext'),
+                    responsive: [
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                            }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+
+                });
+            });
+            $(".blog").each(function () {
+                var slider = $(this);
+                slider.slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    arrows: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    prevArrow: slider.parent().find('.btnPrev'),
+                    nextArrow: slider.parent().find('.btnNext'),
+                    responsive: [
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+
+                });
+            });
+            $(".respon").each(function () {
+                var slider = $(this);
+                slider.slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    arrows: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    prevArrow: slider.parent().find('.btnPrev'),
+                    nextArrow: slider.parent().find('.btnNext'),
+                    responsive: [
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+
+                });
+            });
+        });
+        $(document).ready(function () {
+            $('.product').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                prevArrow: $('.prev-arrow'),
+                nextArrow: $('.next-arrow'),
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+</body>
+
+</html>
